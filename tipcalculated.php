@@ -8,6 +8,7 @@
    $Error_message = $Optional_message = "";
    $bill = $total = $totalTip = $individual = $individualTip = 0.0;
    $split = $percentage = 0;
+   $Add = "add something!!";
    {
      $bill = $_POST["billamount"];
      $percentage = $_POST["percentage"];

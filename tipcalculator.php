@@ -5,6 +5,7 @@
       <link type="text/css" rel="stylesheet" href="css/form.css"/>
    </head>
    <body>
+      <h2> This is my update </h2>
       <div id="calculatorInterface" style="height: 500px">
         <form id="userForm" method="post" action="tipcalculated.php">
           <div style="position:relative; margin-top:20px">
