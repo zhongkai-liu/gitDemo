@@ -1,0 +1,26 @@
+#calculatorInterface{
+  padding: 0px 10px 0px 10px;
+  height: 650px;
+  width: 600px;
+  margin: auto;
+  background-color: #b3daff;
+  border-radius: 10px;
+  border-color: #e6e6e6;
+  border-style: ridge;
+  border-width: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+body{
+  padding: 20px 150px 20px 150px;
+  background-image: url("../image/dollarWings.jpg");
+  background-size: 150px;
+}
+
+div{
+  overflow: auto;
+}
+
+h1{
+  font-size: 250%;
+}

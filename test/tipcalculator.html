@@ -1,0 +1,45 @@
+<html>
+   <head>
+      <title>Tip Calculator</title>
+      <link type="text/css" rel="stylesheet" href="css/main.css"/>
+   </head>
+   <body>
+      <div id="calculatorInterface">
+        <header class="center">
+          <h1>$Tip Calculator$</h1>
+        </header>
+        <form id="userForm">
+          <div id="billinput" class="section center">
+            <h1>Bill Amount: $</hi>
+            <input type="text" name="billamount" font-size="22" style="height: 60px; width: 450px"></input>
+          </div>
+          <div class="section">
+            <div class="container  center" id="percentage">
+              <h3>How much does your waiter/waitress deserve?</h3>
+              <input type="radio" name="percentage" value="10">10%</input><br>
+              <input type="radio" name="percentage" value="15">15%</input><br>
+              <input type="radio" name="percentage" value="20">20%</input><br>
+              <input type="radio" name="percentage" value="-1">other:</input>
+              <input type="text" name="newpercentage"></input>
+            </div>
+            <div class="container  center" id="split">
+              <h3>How do you want to split the cost?</h3>
+              <input type="radio" name="split" value="1">Just myself!</input><br>
+              <input type="radio" name="split" value="2">2 people</input><br>
+              <input type="radio" name="split" value="3">3 people</input><br>
+              <input type="radio" name="split" value="-1">more people:</input>
+              <input type="text" name="newsplit"></input>
+            </div>
+          </div>
+        </form>
+        <div class="section">
+          <div class="container  center" style="width=150px; margin:auto">
+            <button formmethod="get" name="submit">Calculate!</button>
+          </div>
+          <div class="container  center" id="result">
+
+          </div>
+        </div>
+      </div>
+   </body>
+</html>
