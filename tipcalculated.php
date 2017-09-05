@@ -10,6 +10,7 @@
    $split = $percentage = 0;
    $Add = "add something!!";
    {
+     $killBill = true;
      $bill = $_POST["billamount"];
      $percentage = $_POST["percentage"];
      if($percentage == -1){
